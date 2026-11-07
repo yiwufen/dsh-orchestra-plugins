@@ -1,0 +1,14 @@
+{
+  "name": "dsh-orchestra",
+  "interface": { "displayName": "dsh-orchestra plugins" },
+  "plugins": [
+    {
+      "name": "dsh-orchestra",
+      "displayName": "dsh-orchestra",
+      "description": "End-to-end code delivery runtime operator skill for agents (dsh-orchestra CLI ≥ 0.5.0). 端到端交付运行时的 agent 操作面：手动委托触发、发车单确认、通知驱动监控、门禁与集成授权。",
+      "source": { "source": "local", "path": "./dsh-orchestra" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Development & Workflow"
+    }
+  ]
+}

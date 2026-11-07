@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dsh-orchestra",
+  "description": "dsh-orchestra agent plugins marketplace (auto-published snapshot from the private source repo)",
+  "owner": {
+    "name": "yiwufen",
+    "email": "2928475199@qq.com"
+  },
+  "plugins": [
+    {
+      "name": "dsh-orchestra",
+      "source": "./dsh-orchestra",
+      "version": "0.2.0",
+      "description": "End-to-end code delivery runtime operator skill for agents (dsh-orchestra CLI ≥ 0.5.0). 端到端交付运行时的 agent 操作面：手动委托触发、发车单确认、通知驱动监控、门禁与集成授权。",
+      "author": { "name": "dsh-orchestra" },
+      "category": "developer-tools",
+      "displayName": "dsh-orchestra",
+      "displayName_i18n": { "zh-CN": "dsh-orchestra 端到端交付" },
+      "description_i18n": {
+        "zh-CN": "把代码任务委托给多节点流水线（需求→架构→并行编码→独立验证→部署），产出经独立验证、可审阅可回退的 mainline 分支；agent 作为操作员按手册走发车单/监控/门禁/集成全流程"
+      }
+    }
+  ]
+}
