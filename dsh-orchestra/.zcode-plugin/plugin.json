@@ -1,0 +1,8 @@
+{
+  "name": "dsh-orchestra",
+  "version": "0.2.1",
+  "description": "dsh-orchestra 端到端交付运行时的 agent 操作面：手动委托触发、发车单确认、通知驱动监控、门禁与集成授权。需要 dsh-orchestra CLI ≥ 0.7.0（projects / graphs list / models / --version 读口）",
+  "author": { "name": "dsh-orchestra" },
+  "skills": "./skills",
+  "commands": "./commands"
+}
