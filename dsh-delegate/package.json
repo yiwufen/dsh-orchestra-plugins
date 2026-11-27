@@ -1,0 +1,21 @@
+{
+  "name": "@dsh-orchestra/delegate",
+  "version": "0.1.0",
+  "description": "dsh 宿主的委托操作面出口：把 dsh-orchestra skill（四宿主单源 + dsh 前言）注册进 dsh 会话（docs/proposal-dsh-plugin.md §4.1）",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "assets",
+    "cordis.patch.yml"
+  ],
+  "engines": {
+    "node": ">=22.19"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

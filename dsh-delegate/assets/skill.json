@@ -1,0 +1,4 @@
+{
+  "name": "dsh-orchestra",
+  "description": "dsh-orchestra 端到端交付运行时（CLI）的 agent 操作手册：把代码任务委托给交付环 （需求 → 实现 ⇄ 独立验证红回环），产出经独立验证、可审阅可回退的 mainline 分支。 仅当用户显式委托时使用：点名 dsh-orchestra / 交付流水线 / 交付环，或明确表达委托交付 语义——\"把这个任务端到端交付掉，要独立验证\"、\"交给流水线做\"、\"走完整交付流水线\"。 Use only on explicit delegation: the user names dsh-orchestra or explicitly asks for end-to-end delivery with independent verification. 不要在普通编码请求（\"实现 X / 修 Y / 重构 Z\"）上自动使用本 skill——是否从\"自己写代码\"切换为\"委托交付\"是用户的决策， 不由触发器猜测。不适用：代码问答/讲解/审阅/调研、非 git 仓库。"
+}

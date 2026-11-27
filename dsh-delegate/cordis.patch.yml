@@ -1,0 +1,8 @@
+# bundle patch：将 delegate 插入叠加此 bundle 的 profile
+# （或经 `dsh plugin --profile <name> add @dsh-orchestra/delegate` 安装）。
+# 用户可在自己的 cordis.patch.yml 中按 id 覆盖配置或禁用本行。
+
+- insert:
+    - id: dsh-delegate
+      # name 同时是 import 说明符，必须等于包名（含 scope）
+      name: '@dsh-orchestra/delegate'
